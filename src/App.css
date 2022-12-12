@@ -1,0 +1,83 @@
+
+
+.Top_seller{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Top_seller_left{
+  display: flex;
+  float: left;
+  margin-left: 10px;
+}
+
+.Top_seller_right{
+  display: flex;  
+  float: right;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.span_1st{
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button_items{
+  margin: 10px;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  padding: 1rem;
+  
+}
+
+.button_items::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+.button_items > button{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  width: fit-content;
+  padding: 4px 10px;
+}
+
+.Middle_section{
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.Middle_section::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+.Footer_section{
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.Footer_section::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+

@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+h1,h2,h3,h4,h5,h6,span,p{
+  margin: 0;
+  padding: 0;
+
+}
+
+.header{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  box-shadow: 0px 0px 2px 2px gray;
+
+}
+
+.header_logo{
+  display: flex;
+  margin-left: 4px;
+  float: left;
+  margin-top: 4px;
+
+}
+
+.header_logo > img{
+  cursor: pointer;
+
+}
+
+.header_logo > span{
+  color: red;
+  font-size: large;
+  text-align: center;
+  margin-left: 5px;
+  font-weight: bold;
+
+}
+
+.header_right_side {
+  display: flex;
+  float: right;
+  align-items: center;
+  margin-right: 10px;
+
+}
+
+.header_right_side >img{
+  margin-left: 1rem;
+  cursor: pointer;
+
+}
+
+.header_right_side_user{
+  margin-left: 1.5rem;
+  border: 2px solid gray;
+  border-radius: 35px ;
+  gap: 10px;
+
+}
+
+.header_right_side_user > img{
+  align-items: center;
+  padding: 5px 14px;
+  cursor: pointer;
+
+}
+
+/* middle items */
+
+.Middle_parent{
+  display: flex;
+}
+
+.Middle{
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  
+}
+
+.Middle_img{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.Middle_img > img[alt="load"]{
+  position: relative;
+  width: 12.3rem;
+  height: 15rem;
+  border-radius: 10px;
+
+}
+
+.Middle_img > img[alt="heart"]{
+  position: absolute;
+  top: 20px;
+  left: 160px;
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.8;
+}
+
+.Middle_star{
+  margin-top: 4px;
+}
+
+.Middle_star > img{
+  width: 12px;
+  height: 12px;
+
+}
+
+.Middle_star > span{
+  margin-left: 4px;
+
+}
+
+.Middle_text{
+  width: 12.3rem;
+  height: 100%;
+}
+
+/* Footer */
+
+.Footer{
+  margin-top: 1rem;
+  position: relative;
+
+}
+
+.Footer_items{
+  display: flex;
+}
+
+.Footer_items > img{
+  position: relative;
+  width: 30rem;
+  height: 16rem;
+  border-radius: 12px;
+  margin: 0px 10px;
+  flex-wrap: nowrap;
+
+}
+
+.Footer_items > p{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  color: white;
+  opacity: 0.7;
+
+}
+
+.Footer_items > h3{
+  position: absolute;
+  left: 30px;
+  top: 47px;
+  color: white;
+  width: 10rem;
+}
+
+.Footer_items > button{
+  position: absolute;
+  left: 30px;
+  top: 210px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  border: none;
+}
